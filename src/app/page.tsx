@@ -1,11 +1,7 @@
-import React from 'react'
+import HomePage from "@/features/home/HomePage"
 
-const HomePage = () => {
-  return (
-    <h1>
-      Hello
-    </h1>
-  )
+const page = () => {
+  return <HomePage/>
 }
 
-export default HomePage
+export default page
