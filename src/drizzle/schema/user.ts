@@ -2,7 +2,7 @@ import { pgTable, varchar } from "drizzle-orm/pg-core"
 import { createdAt, updatedAt } from "../schemaHelpers"
 import { relations } from "drizzle-orm"
 import { UserResumeTable } from "./userResume"
-import { userNotificationSettingsTable } from "./UserNotificationSettings"
+import { userNotificationSettingsTable } from "./userNotificationSettings"
 import { OrganizationUserSettingsTable } from "./organizationUserSettings"
 
 export const UserTable = pgTable("users", {
